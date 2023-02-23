@@ -1,5 +1,11 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
 :root {
     --background-color: rgb(199, 164, 199);
+    --left-font-color: white;
 }
 
 body {
@@ -20,6 +26,11 @@ body {
     background-image: url('./img/flower.jpg');
     background-position: center;
     background-size: cover;
+    color: var(--left-font-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .right {
@@ -43,4 +54,35 @@ fieldset {
 
 .hero, .bottom {
     background-color: var(--background-color);
+}
+
+.footer a {
+    color: var(--left-font-color);
+}
+
+h1 {
+    font-size: 6rem;
+    font-family: norse-bold, sans-serif;
+}
+
+img {
+    height: 8rem;
+}
+
+.logo-container {
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.footer, .footer a {
+    font-size: 0.75rem;
+    font-family: sans-serif;
+}
+
+.footer {
+    margin-bottom: 1rem;
 }
