@@ -4,7 +4,7 @@
 }
 
 :root {
-    --background-color: rgb(199, 164, 199);
+    --background-color: rgb(247, 224, 247);
     --left-font-color: white;
 }
 
@@ -35,6 +35,9 @@ body {
 
 .right {
     width: 45vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 fieldset {
@@ -85,4 +88,14 @@ img {
 
 .footer {
     margin-bottom: 1rem;
+}
+
+.hero, .bottom {
+    flex: 1;
+}
+
+.form-container {
+    flex: 0.75;
+    box-shadow: 0 5px 18px #888888;
+    z-index: 1;
 }
