@@ -1,0 +1,46 @@
+:root {
+    --background-color: rgb(199, 164, 199);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.left {
+    width: 26vw;
+    background-image: url('./img/flower.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    width: 45vw;
+}
+
+fieldset {
+    display: flex;
+    border: none;
+}
+
+.left-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero, .bottom {
+    background-color: var(--background-color);
+}
