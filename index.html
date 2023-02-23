@@ -34,7 +34,8 @@
                             <label for="email">EMAIL</label>
                             <input type="email" name="email" id="email">
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password" required>
+                            <input type="password" name="password" id="password" class="error">
+                            <div class="error-msg"></div>
                         </div>
                         <div class="right-inputs">
                             <label for="last-name">LAST NAME</label>
@@ -42,7 +43,7 @@
                             <label for="phone-number">PHONE NUMBER</label>
                             <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
                             <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirm-password" id="confirm-password" required>
+                            <input type="password" name="confirm-password" id="confirm-password" class="error">
                         </div>
                     </fieldset>
                 </form>
@@ -53,5 +54,6 @@
             </div>
         </div>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>

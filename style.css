@@ -174,3 +174,10 @@ input:invalid {
 input:focus {
     box-shadow: 5px 5px 18px #888888;
 }
+
+.error-msg {
+    color: red;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 445px;
+}
