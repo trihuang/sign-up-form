@@ -45,11 +45,15 @@ body {
 fieldset {
     display: flex;
     border: none;
+    gap: 3rem;
+    height: 11rem;
+    align-items: end;
 }
 
 .left-inputs {
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
 }
 
 .right-inputs {
@@ -142,4 +146,31 @@ p {
 
 p, .bottom a {
     font-size: 0.8rem;
+}
+
+legend {
+    color: rgb(146, 139, 139);
+    font-size: 1.5rem;
+    padding-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+label {
+    font-size: 0.6rem;
+}
+
+input {
+    margin: 4px 0;
+    width: 200px;
+    height: 18px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    box-shadow: 5px 5px 18px #888888;
 }
