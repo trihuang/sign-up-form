@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo-container">
+                <h1>FOO</h1>
+            </div>
+        </div>
+        <div class="right">
+            <div class="hero">
+                <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
+                <h2>Sign up <em>now</em> to get started.</h2>
+                <h2 class="top-margin">You <em>know</em> you want to.</h2>
+            </div>
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div class="left-inputs">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" name="first-name" id="first-name" required>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="right-inputs">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" name="last-name" id="last-name" required>
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" name="phone-number" id="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="bottom">
+                    <button type="Submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
